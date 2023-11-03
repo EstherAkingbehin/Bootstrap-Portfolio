@@ -10,10 +10,10 @@ Links should navigate to the appropriate sections
 
 *A hero section
 
-A jumbotron featuring your picture, your name, and any other information you'd like to include.
+*A jumbotron featuring your picture, your name, and any other information you'd like to include.
 A work section
 
-A section displaying your work in grid.
+*A section displaying your work in grid.
 
 If you need to use placeholder image use placehold.coLinks to an external site.
 
