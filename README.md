@@ -48,7 +48,7 @@ All hyperlinks have a hover effect.
 The following image shows the web application's appearance and functionality:
 ![Screenshot of webpage](images/Screenshot.png) (images/Screenshot2.png)
 
-Live URL: https://estherakingbehin.github.io/edXBC-c2-HCG-OA-portfolio/
+Live URL: https://estherakingbehin.github.io/Bootstrap-Portfolio/
 
 Repository: https://github.com/EstherAkingbehin/Bootstrap-Portfolio
 
