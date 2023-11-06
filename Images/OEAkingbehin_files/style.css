@@ -89,8 +89,8 @@ header .custom-navbar{
 
 @media (max-width: 1200px){
     .subtitle{
-        top:90px;
-        left:450px;
+        top:155px;
+        left:1100px;
     }
 
     .jumbotron-with-image h1,
