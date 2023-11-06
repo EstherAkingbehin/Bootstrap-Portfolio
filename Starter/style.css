@@ -1,3 +1,7 @@
+body{
+    background-color: #2A363B;
+}
+
 /* customise navigation bar*/
 header .custom-navbar{
     background-color: rgba(42, 50, 59, 0.4) !important;
@@ -53,8 +57,8 @@ header .custom-navbar{
     justify-content: right !important;
     width: 33% !important;
     height: 190px;
-    border-top: solid 3px #e4a16a !important;
-    border-left: solid 3px #e4a16a !important;
+    border-top: solid 1px #e4a16a !important;
+    border-left: solid 1px #e4a16a !important;
     padding:0% !important;
     margin:0%;
     position: relative;
@@ -62,13 +66,29 @@ header .custom-navbar{
     left:650px;
 }
 
+.skills-card, .contact-me{
+    background-color: transparent !important;
+}
+
+.skill1, .skill2, .skill3, .skill4{
+    background-color: transparent !important;
+    text-align: center;
+    color: #c0aa97; 
+}
+
 .skills-img{
     width: 100px; /* Adjust to your preferred width */
     height: 100px;
     margin: 0 auto;
+    background-color: transparent;
 }
 
-
+#Projects h2, .skills-card h2, .contact-me h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color:#bdb2a8;
+    text-decoration: underline; 
+}
 
 .project-img {
     height: 200px; /* Adjust to your preferred height */
@@ -80,40 +100,116 @@ header .custom-navbar{
 }
 
 .projects1, .projects2, .projects3, .projects4, .projects5{
-    border: 3px solid pink;
+    border: 5px solid #526d51;
+}
+
+.Project-details{
+    border-bottom: 2px solid #70bb6d;
+    border-right: 2px solid #70bb6d;
+    background-color: rgba(42, 50, 59, 0.4);
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 100px;
+    color: #FECEA8;
+}
+
+#Projects a{
+    cursor: pointer;
+}
+
+#Projects img {
+    filter: grayscale(100%); 
+    transition: filter 0.3s
+}
+  
+#Projects img:hover{
+    filter: grayscale(0%); 
+}
+
+
+#AboutMe{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.about{
+    background-color: #e4d3c6;
+}
+
+.about h2{
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+
+.about p{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.contact-me a{
+    color:#c0aa97;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.contact-me a:hover{
+    text-decoration: underline;
+    font-size:27px;
+    color:#b8ada4;
 }
 
 #footer{
+    margin-top:60px;
     text-align: center;
+    color: rgb(32, 29, 29);
 }
 
 @media (max-width: 1200px){
     .subtitle{
         top:90px;
-        left:450px;
+        left:400px;
     }
 
     .jumbotron-with-image h1,
     .jumbotron-with-image p {
         color: whitesmoke !important;
     }
-}
 
-@media (max-width: 800px) /*ipad Mini*/{
-    .subtitle{
-        top:155px;
-        left:115px;
-        width: 80% !important;
+    .Project-details{
+        width: 280px;
+        height: 80px;
     }
 }
 
-@media (max-width: 376px) /*iphone SE*/{
+@media (max-width: 800px) /*ipad Mini*/{
+
     header .custom-navbar{
         width:100% !important;
         position: relative;
         background-color: rgba(42, 50, 59, 0.3) !important;
 
     }
+
+    .subtitle{
+        top:155px;
+        left:110px;
+        width: 80% !important;
+    }
+
+    .contact-me a{
+        font-size: 15px;
+    }
+
+    .contact-me a:hover{
+        font-size:13px;
+        color:#cec5bd;
+    }
+}
+
+@media (max-width: 376px) /*iphone SE*/{
     .subtitle{
         top:155px;
         left:75px;
@@ -127,8 +223,12 @@ header .custom-navbar{
         width: 100% !important;
     }
 
-    #ContactMe li{
-       font-size: 9px;
+    #ContactMe a{
+       font-size: 10px;
+    }
+
+    .contact-me{
+        width:80%;
     }
 
 }

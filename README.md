@@ -1,40 +1,60 @@
-Using Bootstrap, recreate your portfolio site with the following items:
+# Bootstrap-Portfolio
 
-*A navigation bar
+Challenge 3
 
-*A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
 
-*Include links that are applicable to your portfolio.
+## Table of content 
 
-Links should navigate to the appropriate sections
+* [Description](#Description)
+* [Installation](#installation)
+* [Features](#features)
+* [Credits](#credits)
+* [License](#license)
 
-*A hero section
+## Description 
 
-*A jumbotron featuring your picture, your name, and any other information you'd like to include.
-A work section
+This is a portfolio site which I intend to use to shows my skills and expertise. Potential clients and recruiters can explore the site to evaluate my skills and explore past projects. The essence of this project is to showcase my understanding of all topics which I have learnt so far in this course. 
 
-*A section displaying your work in grid.
+I have used HTML, CSS, Media queries, and most importantly Bootstrap to present the content on the page. This project has further improved my knowledge of HTML, Bootstrap and CSS, specifically, Customising bootstrap elements, media query and CSS. I've carried out extensive research on Media query, Bootstrap, CSS, CSS grid, and layouts, and how to apply it to webpage layout. As a result, I have applied my understanding of this topic to make the code for this webpage concise and easier to maintain while adhering to best practices.
 
-If you need to use placeholder image use placehold.coLinks to an external site.
+## Installation
 
-Use Bootstrap cards for each project.
+This project can be installed using the SSH or HTTP key in GitHub (Given one of them has been set up on local machine). The project is in a public repository, so it is easily accessible on GitHub.
+1. Navigate to github repository. 
+2. Click the clone button on this repo, and copy either the HTTP key or SSH key. 
+3. On your local computer, open Visual Studio codes or any code editor of your choice. 
+4. Open terminal, create a directory for this project. open the directory. 
+5. Then run git clone ssh key or git clone HTTP key
+6. All folders and files are now cloned into this directory
 
-The description should give a brief overview of the work.
+## Features
 
-Each project will eventually link to your class project work!
+The portfolio webpage includes the following:
 
-A skills section
+A sticky and transparent navigation bar, and navigation menu at the top. Navigation menu include links that are applicable to your portfolio. Links navigate to the appropriate sections.
 
-List out the skills you expect to learn from the bootcamp.
-An about/contact section
+There is a hero section on this webpage. A jumbotron featuring a picture, My name, and three words to describe me.
 
-An About Me section in the same row.
+A work section,  section displaying my work in grid using Bootstrap cards for each project. The description gives a brief overview of the work.
+
+A skills section, List out the skills you expect to learn from the bootcamp.
+
+
+An about and contact section
 A footer section
 
-All hyperlinks should have a hover effect.
+All hyperlinks have a hover effect.
 
-All buttons should display a box shadow upon hover.
+The following image shows the web application's appearance and functionality:
+![Screenshot of webpage](images/Screenshot.png) (images/Screenshot2.png)
 
-Your Bootstrap solution should minimize use of media queries.
+Live URL: https://estherakingbehin.github.io/edXBC-c2-HCG-OA-portfolio/
 
-Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+Repository: https://github.com/EstherAkingbehin/Bootstrap-Portfolio
+
+## Credits
+
+Omotoyosi E Akingbehin
+
+---
+The MIT License (MIT). Copyright (c) .NET Foundation and Contributors. All rights reserved.
